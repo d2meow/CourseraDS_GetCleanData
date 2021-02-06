@@ -18,7 +18,7 @@ Magnitudes are in the same units as the original variables.
 Measurements in the time domain have been prepocessed to filter out noise; the variables are prefixed with 'Time'.
 Some variables have been transformed into the frequency domain using Fast Fourier Transform; these variables are prefixed with 'Frequency' with the same units.
 
-More information on the variables can be found in the features_info.txt file inside UCI HAR Dataset folder
+More information on the variables can be found in the features_info.txt and README.txt file inside UCI HAR Dataset folder
 
 Transformations
 
