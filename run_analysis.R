@@ -60,5 +60,5 @@ data_grouped <- data %>%
         summarise_at(vars(TimeBodyAccelerationmeanX:FrequencyBodyBodyGyrometerJerkMagmeanFreq), mean)
 
 #export tidy data
-write.table(data_grouped, file = "../tidy_data.csv", row.names = FALSE)
+write.table(data_grouped, file = "../tidy_data.txt", row.names = FALSE)
 
